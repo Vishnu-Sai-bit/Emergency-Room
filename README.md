@@ -1,83 +1,149 @@
-# 🏥 Emergency Room Dashboard (Power BI)
+# Hospital-Emergency-Room-Analysis-Dashboard
 
-This project features an interactive **Microsoft Power BI dashboard** that analyzes emergency room data for **9,216 patients** across a 19-month period (April 2023 – October 2024). The dashboard empowers hospital administrators with real-time insights into patient trends, referrals, wait times, and more—driving data-informed decisions in critical care.
+Hospital Emergency Room Analysis Dashboard developed using Power BI to monitor patient flow, operational efficiency, wait times, referrals, and patient satisfaction.
 
----
+## Project Overview
 
-## 📊 Dashboard Views
+This project analyzes Emergency Room (ER) operations using healthcare data collected over a 19-month period. The dashboard provides insights into patient admissions, referrals, demographics, wait times, and overall hospital performance to support data-driven decision-making.
 
-### 🔹 1. Monthly View (April 2024)
-- **Total Patients**: 469  
-- **Average Wait Time**: 35.0 minutes  
-- **Satisfaction Score**: 4.63 / 5  
-- **Referrals**: 185 patients  
-- **Top Age Group**: 20–29 years  
-- **Seen Within 30 Minutes**: 57%  
-- **Peak Time**: Tuesday, 12 AM – 2 AM  
+## Tools & Technologies
 
----
+- Power BI
+- Power Query
+- DAX
+- Data Modeling
+- Data Visualization
 
-### 🔹 2. Consolidated View (Apr 2023 – Oct 2024)
-- **Total Patients**: 9,216  
-- **Average Wait Time**: 35.3 minutes  
-- **Satisfaction Score**: 4.99 / 5  
-- **Referrals**: 3,816 patients  
-- **Admissions**: 50.04%  
-- **Top Referral Departments**:
-  - General Practice: 1,840
-  - Orthopedics: 995  
-- **Peak Days**: Monday, Saturday, Tuesday  
-- **Peak Hours**: 11 AM, 1 PM, 7 PM, 11 PM  
+## Dataset Information
 
----
+| Metric | Value |
+|----------|----------|
+| Total Patients | 9,216 |
+| Analysis Period | Apr 2023 – Oct 2024 |
+| Average Wait Time | 35.3 Minutes |
+| Average Satisfaction Score | 4.99 / 5 |
+| Total Referrals | 3,816 |
+| Admission Rate | 50.04% |
 
-### 🔹 3. Patient-Level Detail View
-Detailed patient data includes:
-- ID, Name, Gender, Age, Race  
-- Wait Time, Referral Department, Admission Status  
+## Business Objective
 
-Supports audits, drill-downs, and individual case analysis.
+The objective of this project is to:
 
----
+- Monitor Emergency Room performance.
+- Analyze patient admission trends.
+- Track patient wait times and satisfaction scores.
+- Identify peak demand periods.
+- Evaluate referral patterns and department workload.
+- Support operational and resource planning decisions.
 
-### 🔹 4. Key Insights
-- Most patients did not require referrals  
-- Dominant age groups: 20–39 years  
-- Race distribution: White > African American > Multiracial  
-- Gender and admission statuses are nearly balanced  
-- Identifies critical times for staffing and resource planning
+## Dashboard Features
 
----
+### Consolidated View
 
-## 🛠 Tools & Technologies
-- **Power BI** – Interactive dashboard development  
-- **Excel / CSV** – Data cleaning and preparation  
-- **DAX** – Custom metrics and calculated columns  
+- Total Patients
+- Admission Status
+- Wait Time Analysis
+- Satisfaction Score Tracking
+- Gender Distribution
+- Age Group Analysis
+- Referral Department Analysis
 
----
+### Monthly View
 
-## ✅ Project Outcomes
-- Optimizes emergency department resource management  
-- Enhances visibility of patient satisfaction trends  
-- Aids in real-time decision making  
-- Identifies operational bottlenecks  
+- Monthly Patient Trends
+- Wait Time Monitoring
+- Admission Analysis
+- Referral Tracking
+- Performance KPIs
 
----
+### Patient Details View
 
-## 📁 Repository Contents
-- `/Screenshots` – Dashboard images  
-- `/PBIX File` – Power BI project file  
-- `/Data` – Sample dataset used  
-- `README.md` – Documentation  
+- Patient-Level Information
+- Demographic Analysis
+- Admission Status
+- Referral Information
 
----
+### Key Takeaways
 
-## 📌 Author
-**Vishnu Sai Beere**  
-[GitHub Profile](https://github.com/Vishnu-Sai-bit)
+- Operational Performance Summary
+- Patient Flow Insights
+- Resource Utilization Analysis
+- Department-Level Trends
 
----
+## Dashboard Preview
 
-## 📄 License
-For academic and educational use only. All data is anonymized. No real patient data is shared.
+### Consolidated Dashboard
 
+[![Consolidated Dashboard](Screenshots/Consolidated.png)](https://github.com/Vishnu-Sai-bit/Emergency-Room/blob/main/Screenshots/Consolidated.png)
+
+### Monthly View Dashboard
+
+[![Monthly View Dashboard](Screenshots/Monthly%20View.png)](https://github.com/Vishnu-Sai-bit/Emergency-Room/blob/main/Screenshots/Monthly%20View.png)
+
+### Patient Details Dashboard
+
+[![Patient Details Dashboard](Screenshots/Patient%20Details.png)](https://github.com/Vishnu-Sai-bit/Emergency-Room/blob/main/Screenshots/Patient%20Details.png)
+
+### Key Takeaways Dashboard
+
+[![Key Takeaways Dashboard](Screenshots/Key%20Takeaways.png)](https://github.com/Vishnu-Sai-bit/Emergency-Room/blob/main/Screenshots/Key%20Takeaways.png)
+
+## Key Insights
+
+- Analyzed 9,216 patient records across a 19-month period.
+- Average patient wait time was 35.3 minutes.
+- Patient satisfaction score averaged 4.99 out of 5.
+- More than 3,800 referrals were recorded across departments.
+- Admission rate remained balanced at approximately 50%.
+- Dashboard enabled monitoring of patient flow and operational efficiency.
+
+## Project Workflow
+
+1. Data Collection
+2. Data Cleaning using Power Query
+3. Data Modeling
+4. DAX Measure Creation
+5. KPI Development
+6. Dashboard Design
+7. Data Visualization
+8. Insight Generation
+
+## Repository Structure
+
+```text
+Hospital-Emergency-Room-Analysis-Dashboard
+│
+├── Dashboard
+├── Data
+├── Screenshots
+├── assets
+├── Data Terminology.docx
+├── Hospital Emergency Room PPT.pptx
+└── README.md
+```
+
+## Key Skills Demonstrated
+
+- Healthcare Analytics
+- Data Analysis
+- Data Cleaning
+- Data Modeling
+- Power Query
+- DAX
+- Dashboard Development
+- KPI Reporting
+- Business Intelligence
+- Data Visualization
+- Operational Analytics
+
+## Business Value
+
+This dashboard helps healthcare administrators monitor Emergency Room performance, identify operational bottlenecks, improve patient experience, optimize resource allocation, and support informed decision-making.
+
+## Author
+
+**Beere Vishnu Sai**
+
+LinkedIn: https://www.linkedin.com/in/beerevishnusai
+
+GitHub: https://github.com/Vishnu-Sai-bit
